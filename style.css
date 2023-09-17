@@ -1,0 +1,102 @@
+/* Background color */
+body {
+  background: url("pexels-imin-technology-12935051.jpg"); /* Greyish background */
+  color: #333; /* Dark grey text */
+}
+.container {
+  margin-top: 50px;
+}
+
+/* Header styles */
+header {
+  background-color: #c0af93; /* Dark grey background for header */
+  color: #f5f5f5; /* White text for header */
+  padding: 60px;
+  text-align: center;
+}
+h1 {
+  font-size: 70px;
+  font-family: "Sofia", sans-serif;
+}
+/* Dropdown styles */
+#health-issue {
+  background-color: #fff; /* White background for dropdown */
+  color: #333; /* Dark grey text for dropdown */
+  border: 1px solid #ccc; /* Light grey border */
+}
+
+/* QR Code Section styles */
+#qrCodeSection {
+  font-family: "Sofia", sans-serif;
+  background-color: #fff; /* White background for QR code section */
+  color: #333; /* Dark grey text for QR code section */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc; /* Light grey border */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; /* Dark grey background for footer */
+  color: #f5f5f5; /* White text for footer */
+  text-align: center;
+  padding: 10px;
+}
+#about {
+  margin-top: 100px;
+  font-family: "Sofia", sans-serif;
+  background-color: #fff; /* White background for QR code section */
+  color: #333; /* Dark grey text for QR code section */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc; /* Light grey border */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border-radius: 10px;
+}
+
+/* Add fade-in animation to the dropdown */
+#healthDropdown {
+  opacity: 0; /* Start with 0 opacity */
+  transition: opacity 0.5s ease; /* Transition on opacity */
+}
+
+/* Fade in when visible */
+#healthDropdown.visible {
+  opacity: 1; /* Fully visible */
+}
+
+/* Add a hover effect to the QR code section */
+#qrCodeSection {
+  background-color: #fff; /* White background for QR code section */
+  color: #333; /* Dark grey text for QR code section */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc; /* Light grey border */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+  transition: transform 0.3s ease; /* Transition on hover */
+}
+
+/* Scale up the section on hover */
+#qrCodeSection:hover {
+  transform: scale(1.05); /* Scale up by 5% on hover */
+}
+
+/* Add a smooth transition to the dropdown */
+.form-control {
+  background-color: #fff; /* White background for dropdown */
+  color: #333; /* Dark grey text for dropdown */
+  border: 1px solid #ccc; /* Light grey border */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transition on color and background changes */
+}
+
+/* Change the color on hover */
+.form-control:hover {
+  background-color: #333; /* Dark grey background on hover */
+  color: #fff; /* White text on hover */
+  border-color: #333; /* Dark grey border on hover */
+}
+
+#about:hover {
+  transform: scale(1.05); /* Scale up by 5% on hover */
+}
